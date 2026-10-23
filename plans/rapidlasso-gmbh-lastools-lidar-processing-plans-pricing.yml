@@ -1,0 +1,27 @@
+generated: '2026-10-23'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://rapidlasso.de/pricing/
+sources:
+- https://rapidlasso.de/pricing/
+- https://rapidlasso.de/pricing/
+name: rapidlasso GmbH - LAStools LiDAR processing pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: full non-production, non-profit, research license (lab-wide) – schools, colleges, universities
+  price_text: EUR 2000
+  price: 2000
+- name: non-profit research laboratory
+  price_text: EUR 3000
+  price: 3000
+- name: commercial and government production license (single-seat) – individual tools (i.e. only lasground)
+  price_text: EUR 1500
+  price: 1500
+- name: LAStools with BLAST (single-seat)
+  price_text: EUR 5000
+  price: 5000
+- name: commercial and government production license (office-wide) – LAStools with BLAST
+  price_text: EUR 15000
+  price: 15000
+docs: https://rapidlasso.de/pricing/

@@ -1,23 +1,78 @@
 aid: rapidlasso-gmbh-lastools-lidar-processing
+
 name: rapidlasso GmbH - LAStools LiDAR processing
-description: 'rapidlasso GmbH - LAStools LiDAR processing is a company surfaced via the API Evangelist
-  harvest backlog (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'rapidlasso GmbH provides LAStools, a suite of efficient LiDAR processing tools for point cloud data. The company offers high-performance software for filtering, classification, tiling, and visualization of massive LiDAR datasets, serving industries such as surveying, forestry, and autonomous vehicle mapping. Their tools are widely used for extracting accurate terrain models and feature extraction from raw LiDAR point clouds.'
+
 url: https://raw.githubusercontent.com/api-evangelist/rapidlasso-gmbh-lastools-lidar-processing/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- LiDAR
+- Geospatial
+- PointCloud
+- Surveying
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/rapidlasso-gmbh-lastools-lidar-processing-plans-pricing.yml
+- type: ChangeLog
+  url: changelog/rapidlasso-gmbh-lastools-lidar-processing-changelog.yml
+- type: Hosts
+  url: hosts/rapidlasso-gmbh-lastools-lidar-processing-hosts.yml
+- type: SDKs
+  url: packages/rapidlasso-gmbh-lastools-lidar-processing-packages.yml
+- type: Packages
+  url: packages/rapidlasso-gmbh-lastools-lidar-processing-packages.yml
+- type: Support
+  url: https://rapidlasso.de/support/
+- type: Pricing
+  url: https://rapidlasso.de/pricing
+- type: Newsroom
+  url: https://rapidlasso.de/news/
+- type: ChangeLog
+  url: https://rapidlasso.de/changelog/
+- type: Blog
+  url: https://rapidlasso.de/category/blog/
+- type: GitHubOrganization
+  url: https://github.com/rapidlasso
+- type: DomainSecurity
+  url: security/rapidlasso-gmbh-lastools-lidar-processing-domain-security.yml
 - type: Website
   url: https://rapidlasso.de/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The public website provides only HTML pages with no machine‑readable API specifications.
+  evidence:
+    - url: https://rapidlasso.de/
+      status: 200
+  checked: '2026-10-23'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

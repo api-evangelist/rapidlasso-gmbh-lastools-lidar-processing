@@ -1,0 +1,57 @@
+generated: '2026-10-23'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://rapidlasso.de/changelog/
+sources:
+- https://rapidlasso.de/changelog/
+entries:
+- breaking: false
+  highlights:
+  - 'NEW: Extend -remove_vlr to remove VLRs by multiple indices or by user ID and record ID'
+  date: '2026-09-03'
+- breaking: false
+  highlights:
+  - 'fix: EPSG source/target argument handling after vertical CRS support changes'
+  date: '2026-09-03'
+- breaking: false
+  highlights:
+  - 'NEW: las2las: arguments ‘-load_txt_to_vlr‘ and ‘-load_bin_to_vlr‘ to modify VLR data'
+  date: '2026-08-21'
+- breaking: false
+  highlights:
+  - 'fix: lasinfo: unify VLR line endings; support multiline texts in VLR output'
+  date: '2026-08-21'
+- breaking: false
+  highlights:
+  - 'fix: lasvalidate: 32 byte field termination validation'
+  date: '2026-08-21'
+- breaking: false
+  highlights:
+  - 'fix: laszip: stat_las() not compiling with MinGW'
+  date: '2026-08-21'
+- breaking: false
+  highlights:
+  - 'NEW: support multiline WKT input in -load_ogc_wkt'
+  date: '2026-08-17'
+- breaking: false
+  highlights:
+  - 'NEW: Extend PROJ integration with Compound CRS support'
+  date: '2026-08-13'
+- breaking: false
+  highlights:
+  - 'NEW: add EPSG 5621, 5702, 5703, 5713, 5799 and 6360 for compound WKT generation'
+  date: '2026-08-13'
+- breaking: false
+  highlights:
+  - 'NEW: add compound WKT generation support for EVRF2007,NGVD29,NAVD88,NAVD88(ftUS),CGVD28 and DVR90'
+  date: '2026-08-10'
+- breaking: false
+  highlights:
+  - 'NEW: improve WKT2 support and GeoTIFF-WKT conversion'
+  date: '2026-08-10'
+- breaking: false
+  highlights:
+  - 'NEW: improve formula solver: writeable flags and attributes ( see blog entry )'
+  date: '2026-08-07'
+note: The page lists changelog entries by date only; no explicit version numbers or scheme are provided.
+docs: https://rapidlasso.de/changelog/
